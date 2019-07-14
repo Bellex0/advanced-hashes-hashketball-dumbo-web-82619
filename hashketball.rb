@@ -144,7 +144,7 @@ def long_name_steals_a_ton
       longest[player[:player_name]] = player[:steals]
     end
   end
-max_steals = longest.values.max
+most_steals = longest.values.max
 longest[longest.key(most_steals)] == most_steals 
-  
+end  
  
