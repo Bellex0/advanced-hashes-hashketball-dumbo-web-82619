@@ -136,3 +136,6 @@ def player_with_longest_name
   end
 longest_name.max_by{|name| name.length}
 end
+
+def long_name_steals_a_ton
+  if player_with_longest_name(name) == most_points_scored(steals)
